@@ -1,0 +1,3 @@
+*.vbproj -merge
+*.csproj -merge
+*.sln -merge

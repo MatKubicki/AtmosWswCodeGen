@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Readme.md" />
+    <Compile Include="Arguments\ValidArguments.fs" />
+    <Compile Include="Arguments\ParsedCommandLine.fs" />
+    <Compile Include="UnitDefinitions\DefinitionTypes.fs" />
+    <Compile Include="UnitDefinitions\Definitions.fs" />
+    <Compile Include="Generators\Utilities\Types.fs" />
+    <Compile Include="Generators\Utilities\Expressions.fs" />
+    <Compile Include="Generators\Utilities\Statements.fs" />
+    <Compile Include="Generators\Utilities\Parameters.fs" />
+    <Compile Include="Generators\Utilities\Members.fs" />
+    <Compile Include="Generators\Utilities\Namespaces.fs" />
+    <Compile Include="Generators\Utilities\Classes.fs" />
+    <Compile Include="Generators\Answers.fs" />
+    <Compile Include="Generators\TypeNames.fs" />
+    <Compile Include="Generators\Exercises_UnitGenerator.fs" />
+    <Compile Include="Generators\UnitTypeGenerator.fs" />
+    <Compile Include="Generators\LibraryGenerator.fs" />
+    <Compile Include="Output\CodeWriter.fs" />
+    <Compile Include="Output\Worker.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.CodeDom" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
