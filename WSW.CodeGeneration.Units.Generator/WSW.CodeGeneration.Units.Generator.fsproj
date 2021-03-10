@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Readme.md" />
     <Compile Include="Arguments\ValidArguments.fs" />
     <Compile Include="Arguments\ParsedCommandLine.fs" />
     <Compile Include="UnitDefinitions\DefinitionTypes.fs" />
